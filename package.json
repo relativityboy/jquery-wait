@@ -1,8 +1,8 @@
 {
   "name": "jquery-wait",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "Add wait effects & prevent user double-clicks with .wait('on') & .wait('off')",
-  "main": "dist/jquery-wait-1.0.js",
+  "main": "dist/jquery-wait.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

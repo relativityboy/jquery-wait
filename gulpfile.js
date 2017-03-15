@@ -43,9 +43,6 @@ gulp.task('scripts', ['clean', 'jslint'], function () {
     .pipe(sourcemaps.init())
     .pipe(uglify())
     .pipe(sourcemaps.write('./maps'))
-    .pipe(rename(function(path) {
-      path.basename += '-' + package.version
-    }))
     .pipe(gulp.dest(sources.javascript.dist))
     .pipe(notify({ message: 'javascript complete', 'onLast': true }));
 });
