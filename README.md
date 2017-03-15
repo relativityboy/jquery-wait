@@ -1,4 +1,4 @@
-##jquery-wait [![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url]
+## jquery-wait [![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url]
 
 ### Description
 It's a small jQuery plugin that with one call 
